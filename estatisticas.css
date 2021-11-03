@@ -1,0 +1,499 @@
+.esta {
+height: 620px; 
+margin-bottom: -100px; 
+background-color: #DADADA;
+display: inline-block;
+width: 1220px;
+overflow: hidden;
+margin-top: 10px;
+}
+
+.stat-dados {
+position: absolute;
+margin-left: 730px;
+margin-top: 80px;
+width: 600px;
+}
+
+.stat-recent {
+height: 130px;
+overflow: hidden;
+width: 130px;
+background: white;
+margin-bottom: 0px;
+margin-left: 300px;
+position: absolute;
+border-radius: 100%;
+border: 15px solid white;}
+
+.tema-escuro .stat-recent {background-color: #272829;}
+
+.recent-name {
+font-size: 0px;
+}
+
+.recent-name strong {
+font-size: 22px;
+margin-left: 0px;
+margin-top: 10px;
+display: block;
+width: 200px;
+text-align: center;
+color: #333;
+text-transform: uppercase;
+font-weight: 900;
+letter-spacing: -1px;
+font-family: montserrat;
+}
+
+.tema-escuro .recent-name strong {color: #FFF;}
+
+.recent-sub {
+text-align: center;
+font-family: heebo;
+text-transform: uppercase;
+font-weight: 800;
+margin-top: -5px;
+}
+
+.recent-icon {
+width: 130px;
+height: 130px;
+margin: 0px 0px -0px;
+background-image: url(http://via.placeholder.com/130x130);
+background-position: center;
+background-size: cover; 
+}
+
+.esta-esta {
+position: absolute;
+margin-left: 850px;
+z-index: 1;
+margin-top: 270px;
+}
+
+.esta-dados {
+font-size: 0px;
+padding: 15px 15px 15px;
+width: 216px;
+margin-bottom: 20px;
+text-align: right;
+font-family: poppins;
+display: block;
+color: #333;
+background-color: #FFF;
+padding-left: 110px;
+}
+
+.esta-dados strong {
+ font-size: 18px;
+ font-weight: 900;
+ letter-spacing: -1px;
+ color: #333;
+ font-family: montserrat;
+ margin-left: 10px;
+ text-transform: uppercase;
+}
+
+.esta-dados titulo {
+ display: block;
+ font-size: 10px;
+ font-family: heebo;
+ text-transform: uppercase;
+ letter-spacing: 0px;
+ font-weight: 800;
+}
+
+.esta-dados i {
+float: left;
+font-size: 35px;
+color: #333;
+margin-top: -15px;
+margin-bottom: -30px;
+}
+
+.esta-render {
+width: 750px;
+height: 720px;
+background-image: url(https://i.imgur.com/aZcKztN.png);
+position: absolute;
+margin-top: -40px;
+margin-left: 480px;
+pointer-events: none;
+z-index: 1;
+}
+
+.esta-title {
+font-size: 40px;
+margin-top: 400px;
+color: white;
+font-family: montserrat;
+z-index: 9;
+position: relative;
+font-weight: 900;
+line-height: 32px;
+text-transform: uppercase;
+letter-spacing: -2px;
+margin-left: 20px;
+display: none;
+}
+
+.esta-title2 {
+color: white;
+margin-left: 25px;
+position: relative;
+z-index: 9;
+text-transform: uppercase;
+font-family: heebo;
+font-weight: 800;
+letter-spacing: 2px;
+font-size: 11px;
+margin-top: 5px;
+}
+
+.esta-online {
+margin-top: 95px;
+position: absolute;
+margin-left: 30px;
+font-size: 18px;
+line-height: 22px;
+width: 450px;
+height: 90px;
+text-align: left;
+background-color: #ffffff;;
+padding:30px 30px;
+z-index: 0;
+font-weight: 400;
+padding-right: 100px;
+}
+
+.esta-online br {display: none;}
+.esta-online a, .esta-online strong {font-weight: 900;}
+
+.esta-dadosonline {
+position: absolute;
+margin-top: 45px;
+margin-left: 30px;
+}
+
+.esta-dadosonline l {font-size: 0px;
+opacity: 0;
+}
+
+.esta-dadosonline div {
+background: #ffffff;
+width: 110px;
+display: inline-block;
+margin-right: 15px;
+text-align: center;
+padding: 10px 10px;
+font-family: heebo;
+font-weight: 900;
+text-transform: uppercase;
+font-size: 11px;
+}
+
+.esta-dadosonline div:nth-child(2) {
+background-color: transparent !Important;color: white;
+position: relative;
+z-index: 999;}
+
+.esta-dadosonline div:nth-child(5) {padding-right: 50px;}
+
+.esta-recentes {
+margin-top: 270px;
+margin-left: 30px;
+font-size: 13px;
+line-height: 18px;
+font-family: heebo;
+text-align: justify;
+width: 450px;
+background: #ffffff;
+border: 30px solid #ffffff;
+height: 140px;
+overflow: auto;
+z-index: 0;
+position: relative;
+opacity: 0.9;
+padding-right: 100px;
+}
+
+.tema-escuro .esta {background-image: url(https://i.imgur.com/iFdrsON.png); background-position: right;}
+.tema-escuro .esta-dadosonline div {background-color: #282828;}
+.tema-escuro .esta-recentes {background-color: #282828; border-color: #282828;}
+.tema-escuro .esta-online {background-color: #282828;}
+
+/***grupos***/
+
+.grupos {
+width: 1220px;
+height: 550px;
+margin-bottom: -68px;
+margin-left: 30px;
+z-index: 1!Important;
+position: relative;
+}
+
+.grupo-desc {
+width: 1220px;
+height: 450px;
+margin-top: 100px;
+position: absolute;
+transition: 0s;
+opacity: 0;
+color: white;
+margin-left: -30px;
+pointer-events: none;
+transition-delay: 0s;
+z-index: 9;
+}
+
+.tema-escuro .grupo-desc {filter: brightness(75%);}
+
+.grupo-desc:before {
+content: "";
+position: absolute;
+z-index: 9;
+margin-top: -250px;
+width: 1220px;
+height: 250px;
+background-image: linear-gradient(#ff000000, #333 100%);
+pointer-events: none;
+}
+
+.group-title {
+font-size: 40px;
+width: 400px;
+text-align: center;
+margin-left: 770px;
+font-family: montserrat;
+font-weight: 800;
+margin-bottom: 0px;
+letter-spacing: -2px;
+text-transform: uppercase;
+}
+
+.group-symbol {
+margin-top: 70px;
+margin-left: 920px;
+width: 70px;
+height: 70px;
+}
+
+.group-sub {
+font-size: 10px;
+width: 400px;
+text-align: center;
+margin-top: -0px;
+margin-left: 770px;
+font-family: heebo;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 10px;
+}
+
+.group-text {
+text-align: justify;
+font-size: 12px;
+line-height: 22px;
+width: 400px;
+height: 150px;
+overflow: hidden;
+margin-left: 770px;
+}
+
+.group-icon {
+margin-top: -230px;
+margin-left: 650px;
+}
+
+.group-icon div {
+width: 70px;
+height: 70px;
+margin-bottom: 50px;
+background: white;
+}
+
+.grupos input[type=radio] { display:none; }
+
+.grupos label { 
+position:absolute;
+color:#333;
+z-index:10;
+cursor:pointer;
+transition:0.5s!important; 
+width: 70px;
+height: 70px;
+padding: 0px;
+margin-top: 20px;
+}
+
+.group-button {
+width: 40px; 
+height: 40px; 
+padding: 12px; 
+background-size: 40px; 
+background-position: center; 
+background-repeat: no-repeat;
+border-radius: 100%;
+}
+
+#adm {background-image: url(https://i.imgur.com/R9MaBI0.png); background-color: #182e6f} 
+#mod {background-image: url(https://i.imgur.com/xpxWNQa.png); background-color: #703e92}
+#mestre {background-image: url(https://i.imgur.com/Rl6lJuM.png); background-color: #3a8fc7}
+#npc {background-image: url(https://i.imgur.com/Zk7ey7u.png); background-color: #bd849b}
+#nuke {background-image: url(https://i.imgur.com/3Jj62Xy.png); background-color: #bb3c3c}
+#colonia {background-image: url(https://imgur.com/A1fi5Oj.png); background-color: #d88f41}
+.group-button#konoha {background-image: url(https://i.imgur.com/s5tMOgP.png); background-color: #328e5a}
+.group-button#kumo {background-image: url(https://i.imgur.com/4rYGhoL.png); background-color: #c5ac31}
+.group-button#iwa {background-image: url(https://i.imgur.com/gcsl6J4.png); background-color: #962b3f}
+.group-button#suna {background-image: url(https://i.imgur.com/7SCgEyk.png); background-color: #9c6444}
+.group-button#kiri {background-image: url(https://i.imgur.com/BwjcqeQ.png); background-color: #53a2b5}
+.group-button#ame {background-image: url(https://i.imgur.com/9nCjpws.png); background-color: #735da9}
+.group-button#oto {background-image: url(https://i.imgur.com/uAQDAXJ.png); background-color: #af6da7}
+
+#group-tab-1:checked ~ #admin-desc {background-image: url(https://i.imgur.com/5S3R1PX.png); background-color: #182e6f; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;} 
+#group-tab-2:checked ~ #mod-desc {background-image: url(https://i.imgur.com/fYpDQEH.png); background-color: #703e92; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-3:checked ~ #mestre-desc {background-image: url(https://i.imgur.com/3i4A6mj.png); background-color: #3a8fc7; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-4:checked ~ #npc-desc {background-image: url(https://i.imgur.com/flksLP0.png); background-color: #bd849b; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-5:checked ~ #nuke-desc {background-image: url(https://i.imgur.com/3hdsSE8.png); background-color: #bb3c3c; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-6:checked ~ #colonia-desc {background-image: url(https://i.imgur.com/DJA2oOJ.png); background-color: #d88f41; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-7:checked ~ #konoha-desc {background-image: url(https://i.imgur.com/WKZpmeS.png); background-color: #328e5a; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-8:checked ~ #kumo-desc {background-image: url(https://i.imgur.com/VpZkorA.png); background-color: #c5ac31; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-9:checked ~ #iwa-desc {background-image: url(https://i.imgur.com/fDvdnr4.png); background-color: #962b3f; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-10:checked ~ #suna-desc {background-image: url(https://i.imgur.com/ojqjox4.png); background-color: #9c6444; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-11:checked ~ #kiri-desc {background-image: url(https://i.imgur.com/F5RQz8p.png); background-color: #53a2b5; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-12:checked ~ #ame-desc {background-image: url(https://i.imgur.com/65M5ncV.png); background-color: #735da9; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+#group-tab-13:checked ~ #oto-desc {background-image: url(https://i.imgur.com/RaEWMzE.png); background-color: #af6da7; opacity: 1; z-index: 1; pointer-events: auto; transition-delay: 0s!important;}
+
+#admin-desc .conectados div {background-color: #182e6f;}
+#mod-desc .conectados div {background-color: #703e92;}
+#mestre-desc .conectados div {background-color: #3a8fc7;}
+#npc-desc .conectados div {background-color: #bd849b;}
+#nuke-desc .conectados div {background-color: #bb3c3c;}
+#colonia-desc .conectados div {background-color: #d88f41;}
+#konoha-desc .conectados div {background-color: #328e5a;}
+#kumo-desc .conectados div {background-color: #c5ac31;}
+#iwa-desc .conectados div {background-color: #962b3f;}
+#suna-desc .conectados div {background-color: #9c6444;}
+#kiri-desc .conectados div {background-color: #53a2b5;}
+#ame-desc .conectados div {background-color: #735da9;}
+#oto-desc .conectados div {background-color: #af6da7;}
+
+#admin-desc:before {background-image: linear-gradient(#ff000000, #182e6f 95%);}
+#mod-desc:before {background-image: linear-gradient(#ff000000, #703e92 95%);}
+#mestre-desc:before {background-image: linear-gradient(#ff000000, #3a8fc7 95%);}
+#npc-desc:before {background-image: linear-gradient(#ff000000, #bd849b 95%);}
+#nuke-desc:before {background-image: linear-gradient(#ff000000, #bb3c3c 95%);}
+#colonia-desc:before {background-image: linear-gradient(#ff000000, #d88f41 95%);}
+#konoha-desc:before {background-image: linear-gradient(#ff000000, #328e5a 95%);}
+#kumo-desc:before {background-image: linear-gradient(#ff000000, #c5ac31 95%);}
+#iwa-desc:before {background-image: linear-gradient(#ff000000, #962b3f 95%);}
+#suna-desc:before {background-image: linear-gradient(#ff000000, #9c6444 95%);}
+#kiri-desc:before {background-image: linear-gradient(#ff000000, #53a2b5 95%);}
+#ame-desc:before {background-image: linear-gradient(#ff000000, #735da9 95%);}
+#oto-desc:before {background-image: linear-gradient(#ff000000, #af6da7 95%);}
+
+#group-tab-1 + label { margin-left:0px;}
+#group-tab-2 + label { margin-left:90px;}
+#group-tab-3 + label { margin-left:180px;}
+#group-tab-4 + label { margin-left:270px;}
+#group-tab-5 + label { margin-left:360px;}
+#group-tab-6 + label { margin-left:450px;}
+#group-tab-7 + label { margin-left:540px;}
+#group-tab-8 + label { margin-left:630px;}
+#group-tab-9 + label { margin-left:720px;}
+#group-tab-10 + label { margin-left:810px;}
+#group-tab-11 + label { margin-left: 900px;}
+#group-tab-12 + label { margin-left:990px;}
+#group-tab-13 + label { margin-left:1080px;}
+
+.conectados {
+position: absolute;
+margin-top: -585px;
+pointer-events: none;
+z-index: 0;
+}
+
+.conectados div {background: red;}
+
+.conectados div:nth-child(1) {
+width: 130px;
+height: 37px;
+margin-left: 30px;
+z-index: -1;
+position: absolute;
+}
+
+.conectados div:nth-child(2),  .conectados div:nth-child(3),  .conectados div:nth-child(4){
+width: 230px;
+height: 66px;
+margin-left: 510px;
+z-index: -1;
+margin-bottom: 14px;
+display: none;
+}
+
+/***footer***/
+
+.moderar-forum {
+font-size: 0px; 
+height: 30px;
+margin-top: 30px;
+}
+
+.moderar-forum a {
+width: 1220px;
+height: 50px;
+background: #C33A32;
+display: block;
+margin-bottom: 0px;
+position: absolute;
+}
+
+.copy-height {height: 540px;}
+
+.copy-fundo {
+width: 1220px;
+height: 540px;
+background: url(https://imgur.com/h3X7Klc.png);
+z-index: 9;
+position: absolute;
+margin-top: 23px;
+margin-bottom: 0px;
+}
+
+.parceiros {
+ margin-top: 150px;
+position: absolute;
+width: 900px;
+margin-left: 60px;
+}
+
+.parceiros a img {
+  display: inline-block;
+  width: 88px;
+  height: 31px;
+  overflow: hidden;
+  border: 2px solid #415569;
+  margin: 0px 25px 25px 0px;
+  box-shadow: 0px 0px 5px #000;
+  transition: 2s;
+}
+
+.parceiros a img:hover { 
+  border-color: #fa4138;
+  box-shadow: 0px 0px 5px #fa4138;
+    filter: brightness(100%) grayscale(0%);
+}
+
+.creditos {
+position: absolute;
+color: white;
+font-size: 13px;
+font-family: heebo;
+font-weight: 700;
+text-align: center;
+margin: 450px 250px 0px;
+}
