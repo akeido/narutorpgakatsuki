@@ -254,9 +254,9 @@ z-index: 9;
 content: "";
 position: absolute;
 z-index: 9;
-margin-top: -250px;
+margin-top: -150px;
 width: 1220px;
-height: 250px;
+height: 150px;
 background-image: linear-gradient(#ff000000, #333 100%);
 pointer-events: none;
 }
