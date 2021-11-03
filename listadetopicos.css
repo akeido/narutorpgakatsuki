@@ -1,0 +1,140 @@
+/***lista de tÃ³picos***/
+
+.forumbg {padding: 0px; margin: 0px 40px; overflow: hidden;}
+
+li.topicos {
+border: 0px;
+display: inline-block!Important;
+width: 1140px;
+height: 100px;
+overflow: hidden;
+margin-bottom: 20px!important;
+margin-right: 20px!Important;
+filter: grayscale(0%);
+background-image: url(https://i.imgur.com/CjdFwG3.png)!Important;
+background-position: 500px -300px!important;
+background-color: #dddddd !important;
+background-repeat: no-repeat;
+}
+
+.tema-escuro li.topicos {
+background-image: url(https://imgur.com/iFdrsON.png)!Important;
+background-color: #1f211c !important;
+}
+
+li.topicos .pagination {
+position: absolute; 
+margin-left: 760px;
+z-index: 9;
+width: 200px;
+text-align: left;
+margin-top: -13px;
+display: none;
+}
+
+li.topicos dl.icon {background-image: transparent!Important;background-size: 0px;}
+
+li.topicos a.topictitle {
+font-size: 25px;
+line-height: 18px;
+position: absolute;
+font-family: montserrat;
+font-weight: 900;
+margin-top: 24px;
+margin-left: 0px;
+text-decoration: none!important;
+text-transform: uppercase!important;
+letter-spacing: -1px;
+color: #333;
+max-width: 770px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+padding-top: 10px;
+height: 24px;
+z-index: 999;
+}
+
+.tema-escuro a.topictitle {color: #FFF!important;}
+.tipo-topico {display: none;}
+
+li.topicos .span-tab {
+margin-top: 35px !important;
+margin-left:800px;
+display: block;
+font-size: 10px;
+letter-spacing: 0px;
+text-transform: uppercase;
+padding: 8px 15px;
+font-family: roboto;
+position: absolute;
+text-align: left;
+font-weight: 400;
+color: #333;
+background: #fff;
+border-radius: 20px;
+}
+
+.tema-escuro .span-tab {background-color: #222!Important; color:#FFF}
+
+.span-tab strong {font-weight: 900!Important;}
+
+.postagens {
+color: #333!important;
+position: absolute;
+margin-left: 47px;
+margin-top: 52px;
+font-size: 12px;
+font-family: heebo;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+.tema-escuro .postagens {color: #FFF!important;}
+
+.postagens i {margin: 0px 5px; color: red;}
+
+.ultimamensagem {
+position: absolute;
+margin-left: 200px;
+color: #444;
+line-height: 16px;
+margin-top: 40px;
+font-size: 13px;
+font-family: heebo;
+text-transform: uppercase;
+font-weight: 700;
+z-index: 9;
+}
+
+.dadoslastpost {
+margin-left: 640px;
+margin-top: -30px;
+color: #333;
+font-size: 11px;
+line-height: 11px;
+font-weight: 900;
+padding: 10px;
+border-radius:50px;
+}
+
+.tema-escuro .dadoslastpost {color: #FFF!important;}
+
+.dadoslastpost strong {font-weight: 900!Important; margin-left: 3px;}
+
+.topiclist-avatar {
+width: 120px;
+height: 120px;
+background-color: #fff!important;
+position: absolute;
+margin-top: -68px;
+margin-left: 830px;
+overflow: hidden;
+border: 15px solid #FFF!important;
+border-radius: 100%;
+z-index: 9;
+}
+  
+.tema-escuro  .topiclist-avatar {border-color: #111!important;}
+
+.topiclist-avatar img {width: 120px!Important; background: white; margin-top: -10px;}
