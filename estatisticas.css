@@ -248,8 +248,6 @@ transition-delay: 0s;
 z-index: 9;
 }
 
-.tema-escuro .grupo-desc {filter: brightness(75%);}
-
 .grupo-desc:before {
 content: "";
 position: absolute;
