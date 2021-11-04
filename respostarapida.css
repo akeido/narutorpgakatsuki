@@ -1,0 +1,181 @@
+/***Caixa de Resposta RÃ¡pida***/
+
+form#quick_reply #textarea_content {
+    width: 1000px!important;
+    margin-top: 0px!important;
+    margin-left: 40px!important;
+    border-radius: 0px!important;
+    oveflow: hidden!important;
+}
+
+.barra-sceditor {
+width: 243px;
+height: 365px;
+background: #C33A32;
+position: relative;
+margin-top: 0px;
+margin-left: 40px;
+margin-bottom: -368px;
+border-right: 899px solid #E0E0E0;
+}
+
+.sceditor-container iframe, form#quick_reply #textarea_content .sceditor-container textarea {
+font-family: roboto,helvetica,Helvetica,sans-serif;
+font-weight: 400!important;
+height: 304px!important;
+margin-bottom: 0px;
+padding:35px 35px 35px!important;
+width: 828px!important;
+margin-left: 242px!important;
+margin-top: 0px!important;
+border-radius: 0px!Important;
+font-size: 12px!important;
+line-height: 19px!important;
+font-family: roboto!important;
+text-align: justify;
+border-right: 1px solid #E0E0E0;
+border-bottom: 1px solid #E0E0E0;
+background-color: #F0F0F0!important;
+color: #000;
+font-weight: 500!important;
+}
+
+.tema-escuro .sceditor-container iframe, .tema-escuro form#quick_reply #textarea_content .sceditor-container textarea {
+    background-color: #252525!important;
+    border-color: #222;
+    color: #FFF;
+}
+
+.tema-escuro .sceditor-container {border-color: #222;}
+
+div.sceditor-group {
+background-clip: padding-box;
+border-bottom: 0px solid #aaa!Important;
+border-radius: 0px!important;
+display: inline-block;
+margin: 15px 0px 0px 10px!important;
+padding: 5px 10px!important;
+text-align: center!important;
+width: 180px!important;
+display: flex!important;
+align-items: center!important;
+justify-content: center!important;
+}
+
+a.sceditor-button {
+margin-right: 5px;
+}
+
+.sceditor-container {
+width: 1140px!important; 
+border-bottom: 0px!important;
+padding-top: 0px!important;
+margin-left: px!important;
+overflow: hidden!important;
+border-radius: 0px!Important;
+margin-top: -10px!important;
+background-color: transparent!important;
+}
+
+.tema-escuro .barra-sceditor {background-color: #922c27;}
+
+div.sceditor-toolbar {
+padding: 20px 15px!Important;
+user-select: none;
+width: 190px;
+margin-top: -10px!important; 
+margin-bottom: -360px!Important;
+margin-left: -1px!important;
+height: 320px;
+position: relative!Important;
+background: transparent!important;
+border: 0px!Important;
+}
+
+.sceditor-container iframe, .sceditor-container textarea {
+background-image: url(https://i.imgur.com/cme89m4.png)!important;
+background-repeat: no-repeat!important;
+background-size: 200px!important;
+background-position: center!important;
+}
+
+.tema-escuro .sceditor-container iframe, .tema-escuro  .sceditor-container textarea {
+ background-image: url(https://i.imgur.com/fSjdchA.png)!Important;}
+
+div.sceditor-grip {display: none;}
+
+.sceditor-button {
+background-color: #F0F0F0;
+padding: 5px 5px!important;
+display: inline-block;
+margin-right: 0px;
+text-align: center;
+}
+
+.sceditor-button:hover {background-color: #222 !important}
+
+a.button1, a.button2, button.button2, input.button1, input.button2 {
+background: #C33A32;
+color: white;
+padding: 15px;
+font-family: roboto;
+text-transform: uppercase;
+font-size: 11px;
+font-weight: 900;
+display: inline-block;
+transition: 0.5s;
+text-align: center;
+border: 0px;
+margin-top: 0px!important;
+}
+
+a.button1:hover, a.button2:hover, button.button2:hover, input.button1:hover, input.button2:hover {
+background: #222;
+color: white;
+border: 0px;
+}
+
+fieldset.submit-buttons input {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    vertical-align: middle;
+    font-family: FontAwesome, roboto;
+}
+
+input[value="Pré-visualizar"] {
+width: 560px!important;
+margin-left: 3px;
+margin-top: 10px;
+position: relative;
+font-size: 14px;
+font-family: montserrat;
+background: transparent!important;
+}
+
+input[value="Enviar"] {
+width: 560px!important;
+margin-top: 10px;
+margin-left: 18px;
+position: relative;
+font-size: 14px;
+font-family: montserrat;
+background: transparent!important;
+}
+
+.botoes-fundo {
+height: 43px;
+margin-top: -60px;
+margin-left: 41px;
+margin-bottom: 20px;
+width: 1300px;
+z-index: 0;
+}
+
+.botoes-fundo div {
+width: 560px;
+display: inline-block;
+height: 47px;
+z-index: 0;
+margin-right: 21px;
+background-color: #c33a32;
+}
