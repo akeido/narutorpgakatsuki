@@ -60,7 +60,6 @@ margin-top: -5px;
 width: 130px;
 height: 130px;
 margin: 0px 0px -0px;
-background-image: url(http://via.placeholder.com/130x130);
 background-position: center;
 background-size: cover; 
 }
@@ -86,12 +85,12 @@ padding-left: 110px;
 }
 
 .esta-dados strong {
- font-size: 18px;
+ font-size: 20px;
  font-weight: 900;
  letter-spacing: -1px;
  color: #333;
  font-family: montserrat;
- margin-left: 10px;
+ margin-left: 5px;
  text-transform: uppercase;
 }
 
@@ -102,16 +101,23 @@ padding-left: 110px;
  text-transform: uppercase;
  letter-spacing: 0px;
  font-weight: 800;
+ margin-bottom: -5px;
 }
 
 .esta-dados i {
 float: left;
 font-size: 35px;
 color: #333;
-margin-top: -15px;
+margin-top: -12px;
 margin-bottom: -30px;
 }
 
+.esta-esta div:nth-child(3)  {
+width: 260px;
+margin-left: -43px;
+}
+
+{}
 .esta-render {
 width: 750px;
 height: 720px;
@@ -458,7 +464,7 @@ height: 540px;
 background: url(https://imgur.com/h3X7Klc.png);
 z-index: 9;
 position: absolute;
-margin-top: 23px;
+margin-top: 13px;
 margin-bottom: 0px;
 }
 
