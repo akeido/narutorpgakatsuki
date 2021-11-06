@@ -205,7 +205,7 @@ text-align: justify;
   text-align: justify;
 }
 
-.subtituloficha {
+.subtitulo{
 border-bottom: 1px solid #E0E0E0;
 font-family: roboto;
 font-size: 25px;
@@ -234,6 +234,7 @@ color: darkgrey;
   box-shadow: 0px 0px 10px #eaeaea;
   margin-bottom: 0px;
   margin-top: 20px;
+  color: #333;
 }
 
 .fichadepersonagem .imagemdaficha {
