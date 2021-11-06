@@ -504,6 +504,7 @@ color: white;
 font-weight: 900;
 text-transform: uppercase;
 font-size: 11px;
+text-align: left!important;
 }
 
 .mudancas .row:nth-child(2) {
