@@ -4,13 +4,17 @@
   width: 630px!important;
   padding: 0px;
   border: 0px;
-  outline: 15px solid #060606;
+  outline: 15px solid #E0E0E0;
   margin-bottom: 15px;
-  background-color: #0a0a0a;
+  background-color: #F0F0F0;
   margin-top: -15px;
   overflow: hidden;
   color: #333;
 }
+
+.tema-escuro .corpodaficha {background-color: #181818; 
+outline: 15px solid #111;
+color: #FFF;}
 
 .nomedopersonagem {
 background-image: url(https://image.ibb.co/dMFuMc/flower.png);
@@ -67,69 +71,70 @@ background-size: 100%;
 }
 
 .infodopersonagem {
-  background: url(https://i.imgur.com/X3kic9Z.png);
-  width: 210px;
+background-color: #AAA;
+  width: 211px;
   height: 490px;
   overflow: hidden;
   padding-top: 30px;
-  margin-top: -78px;
+  margin-top: -80px;
   margin-left: 418px;
-  border-left: 1px solid #1d1d1d;
+  margin-bottom: 0px;
 }
 
+.tema-escuro .infodopersonagem {background-color: #111;}
+
 .infodopersonagem2 {
-background: url(https://i.imgur.com/X3kic9Z.png);
 width: 210px;
-height: 379px;
-margin-bottom: -40px;
+height: 405px;
 overflow: auto;
-padding-top: 30px;
+padding-top: 11px;
 margin-left: 0px;
 display: block;
 position: absolute;
+margin-top: 15px;
 }
 
 .textodopersonagem3 {
-background: #d0181800;
 text-align: justify;
 padding: 20px;
 width: 550px;
-height: 428px;
+height: 470px;
 font-size: 12px;
 line-height: 17px;
-margin-top: -95px;
+margin-top: -110px;
 margin-left: -45px;
-font-family: roboto;
 font-weight: 400;
+margin-bottom: 0px;
 }
 
 .textodopersonagem3-1 {
 font-size: 12px;
 line-height: 17px;
 margin: 0px -5px 0px 215px;
-margin-top: 35px;
-height: 370px;
+height: 430px;
 width: 380px;
 overflow: auto;
 padding-right: 20px;
 }
 
 .infoanglet1-1 {
-  width: 150px;
-  text-align: right;
-  font-family: roboto;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 9px;
-  line-height: 16px;
-  letter-spacing: 0px;
-  margin-top: -11px;
-  border-radius: 0px;
-  padding: 5px 10px;
-  background: #0a0a0a;
-  border: 1px solid #4c4c4c;
-  border-left: 6px solid #505050;
+width: 150px;
+text-align: right;
+font-family: roboto;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 9px;
+line-height: 16px;
+letter-spacing: 0px;
+margin-top: -11px;
+border-radius: 0px;
+padding: 5px 10px;
+background: #FFF;
+border: 0px;
+border-left: 6px solid #505050;
 }
+
+.tema-escuro .infoanglet1-1 {background-color: #222; }
 
 .textodopersonagem1 {
 position: absolute;
@@ -140,7 +145,7 @@ width: 400px;
 height: 339px;
 font-size: 12px;
 line-height: 17px;
-margin-top: -540px;
+margin-top: -555px;
 margin-left: 00px;
 font-family: roboto;
 font-weight: 400;
@@ -172,7 +177,7 @@ font-weight: 900;
 font-family: roboto;
 color: transparent;
 margin: 0px -2px;
-margin-top: -55px;
+margin-top: -80px;
 }
 
 .textodopersonagem2 {
@@ -190,20 +195,22 @@ text-align: justify;
 }
 
 .textodopersonagem2-1 {
-  background: #0a0a0a;
   text-align: justify;
+  background-color: #FFF;
   padding: 10px;
-  border: 20px solid #0a0a0a;
-  width: 640px;
+  border: 20px solid #fff;
+  width: 630px;
   height: 345px;
-  margin-top: 20px;
+  margin-top: 0px;
   padding-top: 0px;
   font-size: 12px;
   line-height: 17px;
   overflow: auto;
-  margin-left: -30px;
+  margin-left: -15px;
   text-align: justify;
 }
+
+.tema-escuro .textodopersonagem2-1 {border-color: #181818; background-color: #181818;}
 
 .subtitulo{
 border-bottom: 1px solid #E0E0E0;
