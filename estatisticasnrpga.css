@@ -217,12 +217,13 @@ text-align: justify;
 width: 450px;
 background: #ffffff;
 border: 30px solid #ffffff;
+border-right: 100px solid #FFF;
 height: 140px;
 overflow: auto;
 z-index: 0;
 position: relative;
 opacity: 0.9;
-padding-right: 100px;
+padding-right: 10px;
 }
 
 .tema-escuro .esta {background-image: url(https://i.imgur.com/Y3uviId.jpg); background-position: right;}
